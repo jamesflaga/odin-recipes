@@ -1,0 +1,107 @@
+/* Global */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 18px 24px;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+  color: rgb(94, 17, 17);
+  background-color: rgba(253, 239, 219, 0.995);
+
+  gap: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 18px;
+
+  color: rgba(94, 17, 17);
+}
+
+hr {
+  border: 1.5px solid rgba(94, 17, 17, 0.35);
+  border-radius: 50px;
+  width: 100%;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  border-radius: 10px;
+}
+
+/* Typography */
+.item-header {
+  color: brown;
+}
+
+/* Navigation */
+.food-link {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  &:visited {
+    color: green;
+  }
+  &:hover {
+    color: rgba(255, 0, 0, 0.8);
+  }
+}
+
+/* Assets */
+.food-image {
+  border: 2px solid rgb(94, 17, 17);
+  width: 300px;
+}
+
+/* Container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+}
+
+.list {
+  margin-left: 4%;
+  margin-bottom: 14px;
+}
