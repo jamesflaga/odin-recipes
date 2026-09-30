@@ -89,20 +89,21 @@ img {
 }
 
 /* Container */
-.main-container {
-  display: flex;
-  flex-direction: column;
+
+.content,
+.p-description,
+.list {
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .content {
   display: flex;
   flex-direction: column;
 
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-.list {
-  margin-left: 4%;
-  margin-bottom: 14px;
+.p-description {
+  margin-bottom: 4px;
 }
